@@ -1,0 +1,24 @@
+﻿<% @ Master Language="VB" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Nested Master Pages - Example</title>
+    <link rel="stylesheet" href="./Styles/Site.css" />
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div>
+            <h5>Nested Master Pages - Example by Julian Mummery</h5>
+        </div>
+
+        <div>
+            <h1>Parent Master</h1>
+            <p style="font:color=red">This is parent master content.</p>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
